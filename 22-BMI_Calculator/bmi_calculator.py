@@ -7,7 +7,7 @@ def get_value(): #getting value
         value=int(input("Enter the value: \n"))
         return value
     except:
-        print("")
+        print("Entered something not type of int")
         exit()
 
 def convert_to_kg(value): #convet lb to kg
